@@ -1,0 +1,66 @@
+{
+	"variables": [],
+	"info": {
+		"name": "AS_2",
+		"_postman_id": "e7ce4994-2596-2def-c1f0-cf01eb5135f7",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cart",
+			"request": {
+				"url": "http://localhost/server/public/api/cart.php/",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": "\t"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/server/public/api/user.php/",
+			"request": {
+				"url": "http://localhost/server/public/api/user.php/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/server/public/api/comment.php/",
+			"request": {
+				"url": "http://localhost/server/public/api/comment.php/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/server/public/api/products.php/",
+			"request": {
+				"url": "http://localhost/server/public/api/products.php/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
